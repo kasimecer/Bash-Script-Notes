@@ -1,6 +1,6 @@
 Command-Line & Bash Script
 
-simple command-line Bash scripts. 
+- Simple command-line Bash scripts. 
 
 ```
 ls
