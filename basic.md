@@ -37,4 +37,8 @@ exp:
 ```
 cat example.csv | cut -d "," -f 2 | tail -n +2 | sort | uniq -c
 ```
+```cat example.csv | sed 's/exist_name/new_name/g' | sed 's/exist_name/new_name/g' > example_edited.csv```
+
+* Arguments:
+
 
