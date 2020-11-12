@@ -1,6 +1,12 @@
 Command-Line & Bash Script
 
-- Simple command-line Bash scripts ```ls```,```cd```,```echo```.
+- Simple command-line Bash scripts 
+
+```ls```
+
+```cd```
+
+```echo```
 
 
 ```cat```: concatenates le contents line-by-line
