@@ -39,6 +39,17 @@ cat example.csv | cut -d "," -f 2 | tail -n +2 | sort | uniq -c
 ```
 ```cat example.csv | sed 's/exist_name/new_name/g' | sed 's/exist_name/new_name/g' > example_edited.csv```
 
-* Arguments:
+* Arguments with standart stream codes
+
+STDIN (standard input): A stream of data into the program
+
+STDOUT (standard output): A stream of data out of the program
+
+STDERR (standard error): Errors in your program
+
+STDIN exp:
+```
+cat file.txt 1> new_file.txt
+```
 
 
