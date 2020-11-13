@@ -109,4 +109,12 @@ The date is Mon 5 Feb 2020 14:43:55 AEDT.
 
 ```echo "2 + 4.6" | bc```
 
+<pre>
+echo "10 / 3" | bc
 
+3
+
+echo "scale=3; 10 / 3" | bc
+
+3.333
+</pre>
