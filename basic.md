@@ -103,3 +103,6 @@ echo $var2
 The date is Mon 5 Feb 2020 14:43:55 AEDT.
 The date is Mon 5 Feb 2020 14:43:55 AEDT.
 </pre>
+
+---
+```bc``` (basic calculator) 
