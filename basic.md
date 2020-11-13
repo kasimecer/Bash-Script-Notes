@@ -63,5 +63,5 @@ cat file.txt > new_file.txt
 
 * Variables
 
-```var1="Moon"
-echo $var1```
+```var1="Moon"```
+```echo $var1```
