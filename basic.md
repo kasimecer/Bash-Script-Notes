@@ -49,7 +49,7 @@ STDERR (standard error): Errors in your program
 
 STDIN exp:
 ```
-cat file.txt 1> new_file.txt
+cat file.txt > new_file.txt
 ```
 
 * ARGV:
