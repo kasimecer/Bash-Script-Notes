@@ -91,5 +91,15 @@ ABCDE
 var="The date is`date`."
 echo $var
 
-The date is Mon 2 Dec 2019 14:13:35 AEDT.
+The date is Mon 5 Feb 2020 14:44:12 AEDT.
+</pre>
+
+<pre>
+var1="The date is`date`."
+var2="The date is $(date)."
+echo $var1
+echo $var2
+
+The date is Mon 5 Feb 2020 14:43:55 AEDT.
+The date is Mon 5 Feb 2020 14:43:55 AEDT.
 </pre>
