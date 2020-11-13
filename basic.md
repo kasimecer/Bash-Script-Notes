@@ -106,3 +106,7 @@ The date is Mon 5 Feb 2020 14:43:55 AEDT.
 
 ---
 ```bc``` (basic calculator) 
+
+```echo "2 + 4.6" | bc```
+
+
