@@ -70,7 +70,6 @@ cat file.txt > new_file.txt
 ----
 
 <pre> 
-
 var='ABCDE'
 var_singlequote='$var'
 echo $var_singlequote
@@ -81,20 +80,17 @@ var_doublequote="$var"
 echo $var_doublequote
 
 ABCDE
-
 </pre>
 
 ----
 
 ```date```
 
-----
+
 
 <pre>
-
 var="The date is`date`."
 echo $var
 
 The date is Mon 2 Dec 2019 14:13:35 AEDT.
-
 </pre>
