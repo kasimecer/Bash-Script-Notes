@@ -146,7 +146,7 @@ echo ${my_array[@]:3:2}
 42 23
 </pre>
 
-
+Associative array (like dict in python)
 <pre>
 declare -A city_details # Declare first
 city_details=([city_name]="New York" [population]=14000000) # Add elements
@@ -154,3 +154,6 @@ echo ${city_details[city_name]} # Index using key to return a value
 
 New York
 </pre>
+
+-----
+
