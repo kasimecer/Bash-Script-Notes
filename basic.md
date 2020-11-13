@@ -82,7 +82,7 @@ echo $var_doublequote
 
 ABCDE
 
-<pre>
+</pre>
 
 ----
 
@@ -97,4 +97,4 @@ echo $var
 
 The date is Mon 2 Dec 2019 14:13:35 AEDT.
 
-<pre>
+</pre>
