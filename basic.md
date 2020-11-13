@@ -59,4 +59,9 @@ cat file.txt > new_file.txt
 ```$#``` gives the length (number) of arguments
 
 
+-----------
 
+* Variables
+
+```var1="Moon"
+echo $var1```
