@@ -52,4 +52,11 @@ STDIN exp:
 cat file.txt 1> new_file.txt
 ```
 
+* ARGV:
+
+```$@```  and ```$*``` give all the arguments in ARGV
+
+```$#``` gives the length (number) of arguments
+
+
 
