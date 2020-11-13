@@ -118,3 +118,21 @@ echo "scale=3; 10 / 3" | bc
 
 3.333
 </pre>
+
+---
+
+* Arrays:
+
+```my_array=(1 2 3)```
+
+<pre>
+my_array=(1 3 5 2)
+echo ${my_array[@]}
+
+1 3 5 2
+
+
+echo ${#my_array[@]}
+
+4
+</pre>
