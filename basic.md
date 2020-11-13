@@ -82,8 +82,11 @@ echo $var_doublequote
 ABCDE
 <pre>
 
----
+----
+
 ```date```
+
+----
 
 <pre>
 var="The date is`date`."
