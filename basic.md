@@ -69,14 +69,14 @@ cat file.txt > new_file.txt
 
 ----
 
-<code> var='ABCDE'
+<pre> var='ABCDE'
 var_singlequote='$var'
 echo $var_singlequote
 
-$var <code>
+$var 
 
-<code> var_doublequote="$var"
+var_doublequote="$var"
 echo $var_doublequote
 
-ABCDE <code>
+ABCDE
 
