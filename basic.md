@@ -136,3 +136,21 @@ echo ${#my_array[@]}
 
 4
 </pre>
+
+```array[@]:N:M```
+
+<pre>
+my_array=(15 20 300 42 23 2 4 33 54 67 66)
+echo ${my_array[@]:3:2}
+
+42 23
+</pre>
+
+
+<pre>
+declare -A city_details # Declare first
+city_details=([city_name]="New York" [population]=14000000) # Add elements
+echo ${city_details[city_name]} # Index using key to return a value
+
+New York
+</pre>
