@@ -59,7 +59,7 @@ cat file.txt > new_file.txt
 ```$#``` gives the length (number) of arguments
 
 
------------
+---
 
 * Variables
 
@@ -67,7 +67,6 @@ cat file.txt > new_file.txt
 
 ```echo $var1```
 
-----
 
 <pre> 
 var='ABCDE'
